@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#08060b">
+<title>Kandy Nails & Tiny Custom Creations</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+:root{--bg:#08060b;--panel:#15101a;--purple:#c746ff;--green:#74ff39;--pink:#ff5dd7;--text:#fff9ff;--muted:#c9bdce}
+.nail-portfolio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.nail-portfolio figure{margin:0;background:var(--panel);border:1px solid #ffffff20;border-radius:22px;overflow:hidden}.nail-portfolio a{display:block}.nail-portfolio img{width:100%;height:370px;object-fit:contain;background:#050407}.nail-portfolio a:focus-visible{outline:3px solid var(--green);outline-offset:-3px}.nail-portfolio figcaption{padding:20px}.nail-portfolio h3{font-family:Caveat,cursive;font-size:2rem;margin:0;color:var(--pink)}.nail-portfolio p{font-size:.9rem;color:var(--muted);margin:8px 0 0}@media(max-width:850px){.nail-portfolio{grid-template-columns:1fr}.nail-portfolio img{height:auto;max-height:520px}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Montserrat,sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
+.hero{min-height:88vh;background:radial-gradient(circle at 15% 15%,#6d14744d,transparent 34%),radial-gradient(circle at 85% 20%,#2d8c4145,transparent 30%),linear-gradient(135deg,#050407,#14091a 55%,#07110a);position:relative;overflow:hidden}.hero:after{content:"✦  ♡  ✧  ♡  ✦";position:absolute;bottom:4%;width:100%;text-align:center;font-size:3rem;letter-spacing:1rem;color:#ffffff18}
+nav{width:min(1180px,92%);margin:auto;padding:22px 0;display:flex;align-items:center;justify-content:space-between;position:relative;z-index:3}.logo{font-family:Caveat,cursive;font-size:2rem;font-weight:700}.logo span{color:var(--green)}#navLinks{display:flex;gap:22px;font-size:.85rem;font-weight:700}#navLinks a:hover{color:var(--green)}#menuBtn{display:none;background:none;border:0;color:white;font-size:1.6rem}
+.hero-inner{width:min(920px,90%);margin:13vh auto 0;text-align:center;position:relative;z-index:2}.kicker,.eyebrow,.heading span{font-size:.72rem;letter-spacing:.2em;font-weight:800;color:var(--green)}h1,h2{font-family:Caveat,cursive;line-height:1.02}h1{font-size:clamp(4.3rem,10vw,8rem);margin:.15em 0}.hero h1 em{font-style:normal;color:var(--pink)}.lead{max-width:720px;margin:0 auto 26px;color:var(--muted)}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.btn{border:0;display:inline-block;background:linear-gradient(90deg,var(--purple),var(--pink),var(--green));color:#08060b;font-weight:800;padding:13px 22px;border-radius:999px;cursor:pointer}.ghost{background:transparent;color:white;border:1px solid #ffffff55}
+.wrap{width:min(1120px,92%);margin:auto;padding:82px 0}.heading{max-width:760px;margin-bottom:32px}.heading h2,.feature h2,.wearable h2{font-size:clamp(3rem,6vw,4.6rem);margin:.08em 0}.heading p,.feature p,.wearable p{color:var(--muted)}.master-collage{width:100%;border-radius:25px;border:1px solid #ffffff20;box-shadow:0 0 50px #8c28b62b}.gallery{display:grid;grid-template-columns:repeat(5,1fr);gap:13px;margin-top:20px}.tile{background:var(--panel);border:1px solid #ffffff17;border-radius:17px;overflow:hidden}.tile img{aspect-ratio:1/1;object-fit:cover}.tile b{display:block;padding:13px;font-size:.8rem}.tile:hover{outline:1px solid var(--green);transform:translateY(-2px)}
+.band,.effects,.wearable{background:linear-gradient(135deg,#120d17,#0c100d)}.split{width:min(1120px,92%);margin:auto;padding:82px 0;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}.split>img,.feature>img{border-radius:25px;box-shadow:0 0 40px #b830d028}.mini-prices{margin:25px 0}.mini-prices p{display:flex;justify-content:space-between;border-bottom:1px solid #ffffff16;padding:9px 0;margin:0}.mini-prices strong{color:var(--green)}small{color:#9f92a6}.feature{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}.feature.reverse img{order:2}.feature p{font-size:1.05rem}.effect-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.effect-cards article,.price-cards article{background:#18121e;border:1px solid #ffffff16;border-radius:22px;padding:24px}.effect-cards i{font-style:normal;font-size:2rem}.effect-cards h3{margin:.5em 0}.effect-cards p,.price-cards p{color:var(--muted);font-size:.9rem}
+.price-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.price-cards h3{font-family:Caveat,cursive;font-size:2.1rem;margin:0 0 12px}.price-cards p{display:flex;justify-content:space-between;border-bottom:1px solid #ffffff12;padding:9px 0}.price-cards .featured{background:linear-gradient(145deg,#291232,#122217);border-color:#9dff6550}.big{font-size:3.4rem;font-weight:800;color:var(--pink);margin:18px 0}.big span{color:var(--green)}.price-cards .featured p,.price-cards .muted{display:block;border:0}.center{text-align:center;max-width:780px}.order form{display:grid;grid-template-columns:1fr 1fr;gap:16px;background:#151019;border:1px solid #ffffff17;padding:25px;border-radius:24px}.order label{display:grid;gap:7px;font-size:.78rem;font-weight:700}.order label:nth-child(2){grid-column:span 2}.order input,.order textarea,.order select{width:100%;border:1px solid #ffffff24;background:#08060b;color:white;border-radius:12px;padding:13px;font:inherit}.order textarea{min-height:120px;resize:vertical}.order button{justify-self:start}.demo{color:var(--green);font-size:.85rem}
+footer{text-align:center;padding:42px 20px;border-top:1px solid #ffffff13;color:var(--muted)}footer strong{font-family:Caveat,cursive;font-size:2rem;color:white}
+@media(max-width:850px){#menuBtn{display:block}#navLinks{display:none;position:absolute;top:68px;left:0;right:0;flex-direction:column;background:#17111d;padding:18px;border-radius:18px}#navLinks.show{display:flex}.gallery{grid-template-columns:repeat(2,1fr)}.split,.feature{grid-template-columns:1fr}.feature.reverse img{order:0}.effect-cards{grid-template-columns:repeat(2,1fr)}.price-cards{grid-template-columns:1fr}.order form{grid-template-columns:1fr}.order label:nth-child(2){grid-column:auto}}
+@media(max-width:520px){.gallery,.effect-cards{grid-template-columns:1fr}.wrap,.split{padding:58px 0}.hero-inner{margin-top:9vh}}
+
+.brand-finale{background:radial-gradient(circle at 50% 50%,#5b126238,transparent 60%),#08060b}
+.brand-finale .wrap{padding-top:30px;padding-bottom:30px}
+.brand-finale img{width:min(850px,100%);margin:auto;border-radius:28px;box-shadow:0 0 55px #b62fce35;border:1px solid #ffffff18}
+footer a{color:var(--green)}
+
+.tiktok-link{display:inline-block;color:var(--pink);font-weight:800;border-bottom:1px solid var(--green);padding-bottom:3px}
+.tiktok-link:hover,footer .social a:hover{color:var(--green)}
+footer .social{margin-top:6px}
+
+.policies{background:linear-gradient(135deg,#110c16,#0a120c)}
+.policy-box{background:#18121e;border:1px solid #ffffff18;border-radius:26px;padding:28px;box-shadow:0 0 40px #8c28b61c}
+.policy-box p{color:var(--muted);padding:12px 0;margin:0;border-bottom:1px solid #ffffff10}
+.policy-box p:last-child{border-bottom:0}
+.policy-box b{color:var(--text)}
+.policy-highlight{margin-top:12px!important;padding:17px!important;border:1px solid #74ff3940!important;background:#74ff390c;border-radius:16px;color:var(--text)!important;font-weight:600}
+.shipping{background:#0b080e}.shipping-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.shipping-grid article{background:#18121e;border:1px solid #ffffff18;border-radius:22px;padding:24px}.shipping-grid h3{font-family:Caveat,cursive;font-size:2rem;margin:0 0 10px}.shipping-grid p{color:var(--muted);margin:0}.shipping-note{margin-top:16px;padding:20px;border-radius:18px;background:#74ff390b;border:1px solid #74ff3935;color:var(--muted)}.shipping-note b{color:var(--text)}@media(max-width:700px){.shipping-grid{grid-template-columns:1fr}}
+
+
+#navLinks{flex-wrap:wrap;justify-content:flex-end;gap:12px 17px;max-width:820px}
+.nail-portfolio{align-items:start}.nail-portfolio figure[hidden]{display:none}
+.photo-open{display:block;position:relative;border:0;padding:0;width:100%;background:#050407;color:white;cursor:zoom-in;font:inherit;text-align:left}
+.photo-open img,.video-frame video{display:block;width:100%;height:370px;object-fit:contain;background:#050407}
+.photo-open:focus-visible,.portfolio-filters button:focus-visible,#close-photo:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+.media-badge{display:inline-block;padding:7px 12px;font-size:.68rem;font-weight:700;color:var(--green);background:#100b15}.video-frame .media-badge{color:var(--pink)}
+.portfolio-filters{display:flex;gap:10px;flex-wrap:wrap}.portfolio-filters button{font:inherit;font-size:.85rem;font-weight:700;cursor:pointer;color:var(--text);background:var(--panel);border:1px solid #ffffff35;padding:10px 22px;border-radius:999px}.portfolio-filters button.active{background:var(--green);color:#08060b;border-color:var(--green)}.portfolio-count{color:var(--muted);font-size:.8rem;margin:16px 0 22px}
+#photo-dialog{width:min(1000px,94vw);max-height:95vh;padding:16px;background:#100b15;color:var(--text);border:1px solid #c746ff70;border-radius:18px}#photo-dialog::backdrop{background:#000d}#large-photo{max-height:75vh;margin:auto;object-fit:contain}#close-photo{display:block;margin:0 0 12px auto;padding:9px 18px;border:0;border-radius:30px;background:var(--green);color:#08060b;font-weight:800;cursor:pointer}#photo-caption{text-align:center}
+@media(max-width:850px){.photo-open img,.video-frame video{height:390px}#navLinks{max-width:none;align-items:flex-start}}
+@media(max-width:420px){.photo-open img,.video-frame video{height:330px}}
+</style>
+</head>
+<body>
+<header class="hero" id="home">
+  <nav>
+    <a class="logo" href="#home">Kandy Nails <span>♥</span></a>
+    <button id="menuBtn" aria-label="Open menu">☰</button>
+    <div id="navLinks">
+      <a href="#categories">Creations</a><a href="#support">Support 💜</a><a href="https://www.tiktok.com/@xxkissesxx23" target="_blank" rel="noopener">TikTok</a><a href="#nails">Nails</a><a href="#nail-gallery">Portfolio</a><a href="https://www.instagram.com/kandy_nails.katie.anderson/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="#pricing">Pricing</a><a href="#order">Custom Orders</a>
+    </div>
+  </nav>
+  <div class="hero-inner">
+    <p class="kicker">KANDY NAILS & TINY CUSTOM CREATIONS</p>
+    <h1>If You Can Imagine It,<br><em>I Can Create It.</em></h1>
+    <p class="lead">Nails, handmade guitar picks, mini animals, names & initials, tiny custom creations and special-effect art — handmade with sparkle and personality.</p>
+    <div class="actions"><a class="btn" href="#categories">See the Creations</a><a class="btn ghost" href="#pricing">See Pricing</a><a class="btn ghost" href="#support">Support My Dream 💜</a></div>
+  </div>
+</header>
+
+<main>
+
+<section id="support" class="band" aria-labelledby="support-title">
+ <div class="wrap center">
+  <div class="heading" style="margin:0 auto 24px"><span>HELP MY SMALL BUSINESS GROW</span><h2 id="support-title">Support My Business 💜</h2>
+  <p>Hi, I’m Kaitlyn, the creator behind Kandy Nails &amp; Tiny Creations. I’m working to turn my passion for nail art and handmade miniatures into a stable source of income.</p>
+  <p>My GoFundMe helps fund the supplies, tools and equipment I need to keep creating and growing. Every donation or share helps me take another step toward this dream.</p></div>
+  <a class="btn" href="https://gofund.me/85987b3fd" target="_blank" rel="noopener noreferrer">Support on GoFundMe 💜</a>
+  <p style="color:var(--muted);font-size:.9rem;margin-top:18px">Can’t donate? Sharing my fundraiser means so much, too. Thank you for supporting my art!</p>
+ </div>
+</section>
+
+<section id="categories" class="wrap">
+  <div class="heading"><span>EXPLORE</span><h2>Pick your kind of Kandy ✨</h2><p>The collage is your visual menu. Tap a category below to see it larger.</p></div>
+  <img class="master-collage" src="assets/category-collage.png" alt="Kandy Nails and Tiny Custom Creations category collage">
+  <div class="gallery">
+    <a class="tile" href="#nails"><img src="assets/nail-services.png" alt="Nail Services"><b>Nail Services</b></a>
+    <a class="tile" href="#guitar"><img src="assets/guitar-picks.png" alt="Handmade Guitar Picks"><b>Handmade Guitar Picks</b></a>
+    <a class="tile" href="#animals"><img src="assets/mini-animals.png" alt="Mini Animals"><b>Mini Animals</b></a>
+    <a class="tile" href="#names"><img src="assets/names-initials.png" alt="Names and Initials"><b>Names & Initials</b></a>
+    <a class="tile" href="#minis"><img src="assets/custom-mini-creations.png" alt="Custom Mini Creations"><b>Custom Mini Creations</b></a>
+    <a class="tile" href="#glow"><img src="assets/glow-in-the-dark.png" alt="Glow-in-the-Dark"><b>Glow-in-the-Dark</b></a>
+    <a class="tile" href="#magnetic"><img src="assets/magnetic-effects.png" alt="Magnetic Effects"><b>Magnetic Effects</b></a>
+    <a class="tile" href="#thermo"><img src="assets/thermochromatic.png" alt="Thermochromatic"><b>Thermochromatic</b></a>
+    <a class="tile" href="#encapsulated"><img src="assets/encapsulated-creations.png" alt="Encapsulated Creations"><b>Encapsulated Creations</b></a>
+  </div>
+</section>
+
+<section class="band" id="nails"><div class="split">
+  <img src="assets/nail-services.png" alt="Kandy Nails services concept">
+  <div><span class="eyebrow">NAIL SERVICES</span><h2>Make your nails part of the art.</h2>
+  <p>Gel color, full-coverage tips, extensions, spa pedicures, chrome, jewels, 3D art and custom nail designs.</p>
+  <div class="mini-prices"><p><b>Gel Manicure</b><strong>$15</strong></p><p><b>Full-Coverage Tips + Gel</b><strong>$20</strong></p><p><b>Extensions</b><strong>$30</strong></p><p><b>Spa Pedicure</b><strong>$25</strong></p></div>
+  </div>
+</div></section>
+
+<section id="nail-gallery" class="wrap">
+<div class="heading"><span>KANDY NAILS PORTFOLIO</span><h2>My nail art, up close 💅</h2><p>Explore my real nail sets, hand-painted designs, sparkling details and behind-the-scenes videos. Tap a photo to see it larger, or press play on a video.</p></div>
+<div class="portfolio-filters" role="group" aria-label="Filter nail portfolio"><button type="button" class="active" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="photo" aria-pressed="false">Photos</button><button type="button" data-filter="video" aria-pressed="false">Videos</button></div>
+<p id="portfolio-count" class="portfolio-count" aria-live="polite"></p>
+<div class="nail-portfolio" id="portfolio-grid"><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000017648.jpg" data-title="Blue, Gold &amp; Glitter" aria-label="Enlarge Blue, Gold &amp; Glitter"><img src="portfolio-1000017648.jpg" alt="Blue accents, gold lines and delicate white details." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Blue, Gold &amp; Glitter</h3><p>Blue accents, gold lines and delicate white details.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000014771.jpg" data-title="Flower Garden" aria-label="Enlarge Flower Garden"><img src="portfolio-1000014771.jpg" alt="Pink, purple and lavender flowers with gold centers." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Flower Garden</h3><p>Pink, purple and lavender flowers with gold centers.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000017656.jpg" data-title="Midnight Florals" aria-label="Enlarge Midnight Florals"><img src="portfolio-1000017656.jpg" alt="Dark nails with colorful floral accent designs." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Midnight Florals</h3><p>Dark nails with colorful floral accent designs.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000017652.jpg" data-title="Coral Sparkle French" aria-label="Enlarge Coral Sparkle French"><img src="portfolio-1000017652.jpg" alt="Bright coral tips with iridescent sparkle and accents." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Coral Sparkle French</h3><p>Bright coral tips with iridescent sparkle and accents.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000010109.jpg" data-title="Ruby French" aria-label="Enlarge Ruby French"><img src="portfolio-1000010109.jpg" alt="Red glitter tips with butterflies and rhinestones." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Ruby French</h3><p>Red glitter tips with butterflies and rhinestones.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000008966.jpg" data-title="Daisy French" aria-label="Enlarge Daisy French"><img src="portfolio-1000008966.jpg" alt="Classic white French tips with tiny daisies." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Daisy French</h3><p>Classic white French tips with tiny daisies.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000005637.jpg" data-title="Black &amp; Gold" aria-label="Enlarge Black &amp; Gold"><img src="portfolio-1000005637.jpg" alt="Black, gold glitter and metallic foil details." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Black &amp; Gold</h3><p>Black, gold glitter and metallic foil details.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000010207.jpg" data-title="Golden Sunshine" aria-label="Enlarge Golden Sunshine"><img src="portfolio-1000010207.jpg" alt="Clear tips with gold foil and sparkling embellishments." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Golden Sunshine</h3><p>Clear tips with gold foil and sparkling embellishments.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-earlier-0.jpg" data-title="Thermochromatic" aria-label="Enlarge Thermochromatic"><img src="portfolio-earlier-0.jpg" alt="Temperature-reactive pink and blue-purple shades with a sweet heart accent." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Thermochromatic</h3><p>Temperature-reactive pink and blue-purple shades with a sweet heart accent.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000014545.jpg" data-title="Glow-in-the-Dark" aria-label="Enlarge Glow-in-the-Dark"><img src="portfolio-1000014545.jpg" alt="Turquoise glowing tips with an accent design." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Glow-in-the-Dark</h3><p>Turquoise glowing tips with an accent design.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-earlier-2.jpg" data-title="Hand-Painted Florals" aria-label="Enlarge Hand-Painted Florals"><img src="portfolio-earlier-2.jpg" alt="Soft mauve, gray and tiny floral details on a shorter nail length." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Hand-Painted Florals</h3><p>Soft mauve, gray and tiny floral details on a shorter nail length.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000008977.jpg" data-title="Sweetheart Sparkle" aria-label="Enlarge Sweetheart Sparkle"><img src="portfolio-1000008977.jpg" alt="White nails with red glitter and heart accents." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Sweetheart Sparkle</h3><p>White nails with red glitter and heart accents.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000009065.jpg" data-title="Pretty in Pink" aria-label="Enlarge Pretty in Pink"><img src="portfolio-1000009065.jpg" alt="Pink nails with soft floral accents." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Pretty in Pink</h3><p>Pink nails with soft floral accents.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000012029.jpg" data-title="Red Ribbons" aria-label="Enlarge Red Ribbons"><img src="portfolio-1000012029.jpg" alt="Red and white nails with bow designs." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Red Ribbons</h3><p>Red and white nails with bow designs.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000016396.jpg" data-title="Emerald Pedicure" aria-label="Enlarge Emerald Pedicure"><img src="portfolio-1000016396.jpg" alt="Shimmering green toes with decorated accents." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Emerald Pedicure</h3><p>Shimmering green toes with decorated accents.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000008091.jpg" data-title="Soft Winter Shimmer" aria-label="Enlarge Soft Winter Shimmer"><img src="portfolio-1000008091.jpg" alt="A soft pink manicure with a white star accent." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Soft Winter Shimmer</h3><p>A soft pink manicure with a white star accent.</p></figcaption></figure><figure data-kind="photo"><button class="photo-open" type="button" data-photo="portfolio-1000007837.jpg" data-title="Olive Gloss" aria-label="Enlarge Olive Gloss"><img src="portfolio-1000007837.jpg" alt="A glossy deep green manicure on shorter nails." loading="lazy" decoding="async" width="720" height="720"><span class="media-badge">Photo · Tap to enlarge</span></button><figcaption><h3>Olive Gloss</h3><p>A glossy deep green manicure on shorter nails.</p></figcaption></figure><figure data-kind="video"><div class="video-frame"><video controls playsinline preload="none" poster="portfolio-1000017654.jpg" aria-label="Sculpted Floral Details"><source src="portfolio-1000017654.mp4" type="video/mp4">Your browser cannot play this video. <a href="portfolio-1000017654.mp4">Open video</a></video><span class="media-badge">Video</span></div><figcaption><h3>Sculpted Floral Details</h3><p>Dimensional flowers and delicate accents.</p></figcaption></figure><figure data-kind="video"><div class="video-frame"><video controls playsinline preload="none" poster="portfolio-1000017646.jpg" aria-label="Green Sparkle French"><source src="portfolio-1000017646.mp4" type="video/mp4">Your browser cannot play this video. <a href="portfolio-1000017646.mp4">Open video</a></video><span class="media-badge">Video</span></div><figcaption><h3>Green Sparkle French</h3><p>See the green shimmer and decorative details.</p></figcaption></figure><figure data-kind="video"><div class="video-frame"><video controls playsinline preload="none" poster="portfolio-1000017653.jpg" aria-label="Coral French in Motion"><source src="portfolio-1000017653.mp4" type="video/mp4">Your browser cannot play this video. <a href="portfolio-1000017653.mp4">Open video</a></video><span class="media-badge">Video</span></div><figcaption><h3>Coral French in Motion</h3><p>A closer look at the bright coral tips.</p></figcaption></figure><figure data-kind="video"><div class="video-frame"><video controls playsinline preload="none" poster="portfolio-1000017644.jpg" aria-label="Colorful Glitter"><source src="portfolio-1000017644.mp4" type="video/mp4">Your browser cannot play this video. <a href="portfolio-1000017644.mp4">Open video</a></video><span class="media-badge">Video</span></div><figcaption><h3>Colorful Glitter</h3><p>A moving look at colorful sparkling nails.</p></figcaption></figure><figure data-kind="video"><div class="video-frame"><video controls playsinline preload="none" poster="portfolio-1000017642.jpg" aria-label="Dark Details"><source src="portfolio-1000017642.mp4" type="video/mp4">Your browser cannot play this video. <a href="portfolio-1000017642.mp4">Open video</a></video><span class="media-badge">Video</span></div><figcaption><h3>Dark Details</h3><p>See the nail art from different angles.</p></figcaption></figure><figure data-kind="video"><div class="video-frame"><video controls playsinline preload="none" poster="portfolio-1000017645.jpg" aria-label="Pink Details in Motion"><source src="portfolio-1000017645.mp4" type="video/mp4">Your browser cannot play this video. <a href="portfolio-1000017645.mp4">Open video</a></video><span class="media-badge">Video</span></div><figcaption><h3>Pink Details in Motion</h3><p>A closer look at the pink nail design.</p></figcaption></figure><figure data-kind="video"><div class="video-frame"><video controls playsinline preload="none" poster="portfolio-1000011974.jpg" aria-label="Sunlight &amp; Sparkle"><source src="portfolio-1000011974.mp4" type="video/mp4">Your browser cannot play this video. <a href="portfolio-1000011974.mp4">Open video</a></video><span class="media-badge">Video</span></div><figcaption><h3>Sunlight &amp; Sparkle</h3><p>A closer look at the shimmer in natural light.</p></figcaption></figure><figure data-kind="video"><div class="video-frame"><video controls playsinline preload="none" poster="portfolio-1000017649.jpg" aria-label="Garden-Inspired Nails"><source src="portfolio-1000017649.mp4" type="video/mp4">Your browser cannot play this video. <a href="portfolio-1000017649.mp4">Open video</a></video><span class="media-badge">Video</span></div><figcaption><h3>Garden-Inspired Nails</h3><p>Nail art and bright garden colors.</p></figcaption></figure><figure data-kind="video"><div class="video-frame"><video controls playsinline preload="none" poster="portfolio-1000017647.jpg" aria-label="Lights-Out Details"><source src="portfolio-1000017647.mp4" type="video/mp4">Your browser cannot play this video. <a href="portfolio-1000017647.mp4">Open video</a></video><span class="media-badge">Video</span></div><figcaption><h3>Lights-Out Details</h3><p>A look at the design against a dark background.</p></figcaption></figure><figure data-kind="video"><div class="video-frame"><video controls playsinline preload="none" poster="portfolio-1000017643.jpg" aria-label="Behind the Brush"><source src="portfolio-1000017643.mp4" type="video/mp4">Your browser cannot play this video. <a href="portfolio-1000017643.mp4">Open video</a></video><span class="media-badge">Video</span></div><figcaption><h3>Behind the Brush</h3><p>Watch the nail-art details take shape.</p></figcaption></figure><figure data-kind="video"><div class="video-frame"><video controls playsinline preload="none" poster="portfolio-1000017651.jpg" aria-label="Creating the Details"><source src="portfolio-1000017651.mp4" type="video/mp4">Your browser cannot play this video. <a href="portfolio-1000017651.mp4">Open video</a></video><span class="media-badge">Video</span></div><figcaption><h3>Creating the Details</h3><p>A look at the nail-art process.</p></figcaption></figure></div>
+<p style="margin-top:28px"><a class="tiktok-link" href="https://www.instagram.com/kandy_nails.katie.anderson/" target="_blank" rel="noopener noreferrer">♡ More on Instagram ♡</a></p>
+</section>
+<section class="band" id="creations-showcase"><div class="wrap"><div class="heading"><span>TINY CREATIONS PORTFOLIO</span><h2>A little wearable art 💜</h2><p>Handmade details beyond the manicure.</p></div><div class="nail-portfolio"><figure data-kind="video"><div class="video-frame"><video controls playsinline preload="none" poster="portfolio-1000014442.jpg" aria-label="Tiny Pendant Showcase"><source src="portfolio-1000014442.mp4" type="video/mp4">Your browser cannot play this video. <a href="portfolio-1000014442.mp4">Open video</a></video><span class="media-badge">Video</span></div><figcaption><h3>Tiny Pendant Showcase</h3><p>A closer look at a handmade pendant.</p></figcaption></figure></div></div></section>
+<dialog id="photo-dialog" aria-label="Enlarged nail portfolio photo"><button type="button" id="close-photo" aria-label="Close photo">Close ×</button><img id="large-photo" alt=""><p id="photo-caption"></p></dialog>
+
+<section class="wrap feature" id="guitar"><img src="assets/guitar-picks.png" alt="Handmade guitar picks"><div><span class="eyebrow">HANDMADE</span><h2>Guitar Picks</h2><p>Custom sculpted picks with your colors, theme and personality. No generic-looking menu required — each request can become its own tiny piece of art.</p></div></section>
+<section class="wrap feature reverse" id="animals"><img src="assets/mini-animals.png" alt="Mini animals"><div><span class="eyebrow">TINY & CUSTOM</span><h2>Mini Animals</h2><p>Little creatures, pets, fantasy animals and whatever adorable idea you have in mind.</p></div></section>
+<section class="wrap feature" id="names"><img src="assets/names-initials.png" alt="Names and initials"><div><span class="eyebrow">PERSONALIZED</span><h2>Names & Initials</h2><p>Letters, initials and names can become standalone creations, charms, keepsakes or small wearable pieces.</p></div></section>
+<section class="wrap feature reverse" id="minis"><img src="assets/custom-mini-creations.png" alt="Custom mini creations"><div><span class="eyebrow">IMAGINE IT</span><h2>Custom Mini Creations</h2><p>Mushrooms, characters, tiny objects, fantasy pieces, miniature scenes and unusual ideas all belong here.</p></div></section>
+
+<section class="effects">
+<div class="wrap">
+ <div class="heading"><span>SPECIAL EFFECTS</span><h2>Make it glow, shift & sparkle.</h2><p>Each effect now has its own visual showcase.</p></div>
+</div></section>
+
+<section class="wrap feature" id="glow"><img src="assets/glow-in-the-dark.png" alt="Glow-in-the-Dark creations"><div><span class="eyebrow">SPECIAL EFFECT</span><h2>Glow-in-the-Dark</h2><p>Glow effects can turn tiny creations and nail art into something completely different when the lights go out.</p></div></section>
+<section class="wrap feature reverse" id="magnetic"><img src="assets/magnetic-effects.png" alt="Magnetic Effects"><div><span class="eyebrow">SPECIAL EFFECT</span><h2>Magnetic Effects</h2><p>Dimensional magnetic shimmer creates shifting lines, waves and cat-eye-style depth.</p></div></section>
+<section class="wrap feature" id="thermo"><img src="assets/thermochromatic.png" alt="Thermochromatic color changing creations"><div><span class="eyebrow">COLOR-CHANGING</span><h2>Thermochromatic</h2><p>Temperature-reactive colors transform between cold and warm shades for a creation that changes with you.</p></div></section>
+<section class="wrap feature reverse" id="encapsulated"><img src="assets/encapsulated-creations.png" alt="Encapsulated Creations"><div><span class="eyebrow">PRESERVED IN ART</span><h2>Encapsulated Creations</h2><p>Tiny flowers, butterflies, glitter and details can be preserved inside clear acrylic or hard gel for a glass-like layered finish.</p></div></section>
+
+<section id="pricing" class="wrap">
+ <div class="heading"><span>PRICING</span><h2>Handmade, personalized & priced for the work involved.</h2><p>Every custom piece is different. Final pricing depends on size, detail, materials, design complexity, special effects, and hands-on creation time.</p></div>
+ <div class="price-cards">
+   <article>
+     <h3>💅 Nail Services</h3>
+     <p>Gel Polish Manicure <b>$15</b></p>
+     <p>Full-Coverage Tips + Gel <b>$20</b></p>
+     <p>Extra-Length Extensions <b>$30</b></p>
+     <p>Spa Pedicure <b>$25</b></p>
+     <p>Pedicure Gel Polish <b>+$10</b></p>
+     <p>Regular Toe Polish <b>$15</b></p>
+     <p>Basic Art / Chrome / Jewels <b>+$5</b></p>
+     <p>Polish Removal <b>+$5</b></p>
+     <p>Gel / Enhancement Removal <b>about +$10</b></p>
+     <p class="muted">Complex 3D or especially detailed custom nail art is quoted separately.</p>
+   </article>
+   <article class="featured">
+     <h3>💜 Custom Creations</h3>
+     <div class="big">$30<span>+</span></div>
+     <p><b>Simple Custom Creations — $30+</b><br>Simple shapes, colors, initials and small designs.</p>
+     <p><b>Detailed Custom Creations — $45+</b><br>Mini animals, characters, detailed objects and layered designs.</p>
+     <p><b>Highly Detailed / 3D — Custom Quote</b><br>Complex miniatures, multiple components, intricate 3D work or especially time-intensive designs.</p>
+   </article>
+   <article>
+     <h3>✨ Extras & Timing</h3>
+     <p><b>Special Effects</b><br>Glow-in-the-dark, thermochromatic, magnetic and encapsulated effects may increase the price.</p>
+     <p><b>Wearable Option</b><br>Many creations can be made small enough to drill for a necklace. Chain/hardware is priced separately depending on material.</p>
+     <p><b>1–3 days</b><br>Simple requests</p>
+     <p><b>5–14 days</b><br>More complex requests</p>
+     <p class="muted">Timing may vary depending on materials and design complexity.</p>
+   </article>
+ </div>
+</section>
+
+<section class="wearable"><div class="wrap center">
+ <span class="eyebrow">WANT TO WEAR IT?</span><h2>Turn a Tiny Creation into a necklace. 💜</h2>
+ <p>Many creations can be made small enough to drill and turn into a necklace or pendant. Chain and hardware pricing depends on the material you choose.</p>
+</div></section>
+
+<section class="brand-finale"><div class="wrap">
+<img src="assets/imagine-create.png" alt="If You Can Imagine It, I Can Create It">
+</div></section>
+<section class="shipping"><div class="wrap">
+<div class="heading"><span>SHIPPING • PICKUP • DELIVERY</span><h2>How you'll receive your creation 📦</h2></div>
+<div class="shipping-grid">
+<article><h3>📦 Shipping</h3><p>Shipping is available for Tiny Custom Creations. Cost is calculated separately based on order size/weight, packaging, destination and shipping method. Your shipping cost will be confirmed before payment.</p></article>
+<article><h3>📍 Local Pickup</h3><p>Local pickup can be arranged after your order is finished. Exact pickup details are provided privately after the order is confirmed.</p></article>
+<article><h3>🚗 Local Delivery</h3><p>Local delivery may be available depending on distance and availability. A delivery fee may apply and will be discussed before the order is finalized.</p></article>
+<article><h3>💜 Tracking & Care</h3><p>When tracking is available, it will be sent once your order ships. Each handmade creation is packaged carefully. If an item arrives damaged, contact me as soon as possible with photos of the item and packaging.</p></article>
+</div>
+<div class="shipping-note"><b>Creation time and shipping time are separate.</b> Creation is generally 1–3 days for simple requests and 5–14 days for complex requests. Shipping begins after your creation is completed. Customers are responsible for providing a complete and accurate shipping address.</div>
+</div></section>
+<section class="policies">
+<div class="wrap">
+ <div class="heading"><span>CUSTOM ORDER POLICY</span><h2>Before I create your order 🖤</h2></div>
+ <div class="policy-box">
+  <p>Custom pieces are handmade and may have slight variations — that is part of what makes each piece one of a kind.</p>
+  <p><b>Pricing is confirmed before work begins.</b> Major changes requested after creation has started may result in an additional charge.</p>
+  <p>Turnaround is generally <b>1–3 days for simple creations</b> and <b>5–14 days for more complex designs</b>, but timing can vary depending on the design and materials needed.</p>
+  <p>Materials or specialty items may need to be purchased specifically for your request.</p>
+  <p>Because personalized and custom pieces are made specifically for you, completed custom work is generally not refundable simply because you changed your mind. If there is a problem with your order, please contact me so we can work out an appropriate solution.</p>
+  <p class="policy-highlight">💜 Submitting a custom request does not commit you to purchasing anything. We will discuss the design and price first.</p>
+ </div>
+</div>
+</section>
+
+<section id="order" class="wrap order">
+ <div class="heading"><span>YOUR IDEA → YOUR CREATION</span><h2>Request your custom quote. 💜</h2><p>Tell me what you are imagining. Your request will open as an email so we can talk through the design and price before I begin.</p><p><a class="tiktok-link" href="https://www.tiktok.com/@xxkissesxx23" target="_blank" rel="noopener">♡ Follow @xxkissesxx23 on TikTok ♡</a></p></div>
+ <form id="orderForm">
+  <label>Your name<input id="customerName" required placeholder="Name"></label>
+  <label>What do you want created?<textarea id="customerIdea" required placeholder="Tell me your idea..."></textarea></label>
+  <label>Colors / theme<input id="customerColors" placeholder="Purple, green, spooky, cute..."></label>
+  <label>Special effect<select id="customerEffect"><option>None / not sure</option><option>Glow-in-the-dark</option><option>Magnetic</option><option>Thermochromatic</option><option>Encapsulated</option></select></label><label>How would you like to receive it?<select id="customerFulfillment"><option>Shipping</option><option>Local Pickup</option><option>Local Delivery</option><option>Not sure yet</option></select></label>
+<label>ZIP code<input id="customerZip" inputmode="numeric" placeholder="ZIP code"></label>
+  <button class="btn" type="submit">Request My Custom Quote ♡</button>
+  <p class="demo">This opens your email app with the custom-request details filled in.</p>
+ </form>
+</section>
+</main>
+
+<footer><strong>Kandy Nails & Tiny Custom Creations</strong>
+<p>♡ If You Can Imagine It, I Can Create It. ♡</p>
+<p><a href="mailto:Kandy.nails.xoxo@gmail.com">Kandy.nails.xoxo@gmail.com</a></p>
+<p class="social"><a href="https://www.tiktok.com/@xxkissesxx23" target="_blank" rel="noopener">TikTok: @xxkissesxx23</a></p><p class="social"><a href="https://www.instagram.com/kandy_nails.katie.anderson/" target="_blank" rel="noopener noreferrer">Instagram: @kandy_nails.katie.anderson</a></p></footer>
+<script>
+const b=document.getElementById('menuBtn'), n=document.getElementById('navLinks');
+b.onclick=()=>n.classList.toggle('show');
+document.querySelectorAll('#navLinks a').forEach(a=>a.onclick=()=>n.classList.remove('show'));
+
+document.getElementById('orderForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const name=document.getElementById('customerName').value;
+  const idea=document.getElementById('customerIdea').value;
+  const colors=document.getElementById('customerColors').value || 'Not specified';
+  const effect=document.getElementById('customerEffect').value;
+  const subject=encodeURIComponent('Kandy Nails Custom Quote Request - ' + name);
+  const body=encodeURIComponent(
+    'Hi Kandy Nails!\n\nI would like to request a custom quote.\n\n' +
+    'Name: ' + name + '\n\n' +
+    'My idea:\n' + idea + '\n\n' +
+    'Colors / theme: ' + colors + '\n' +
+    'Special effect: ' + effect + '\n' +
+    'Receive order by: ' + document.getElementById('customerFulfillment').value + '\n' +
+    'ZIP code: ' + (document.getElementById('customerZip').value || 'Not provided') + '\n\n' +
+    'Please let me know what you think and what the quote would be. 💜'
+  );
+  window.location.href='mailto:Kandy.nails.xoxo@gmail.com?subject='+subject+'&body='+body;
+});
+
+const portfolioCards=[...document.querySelectorAll('#portfolio-grid figure')];
+const portfolioCount=document.getElementById('portfolio-count');
+function updatePortfolio(filter){let count=0;portfolioCards.forEach(card=>{const show=filter==='all'||card.dataset.kind===filter;card.hidden=!show;if(show)count++;else card.querySelector('video')?.pause();});portfolioCount.textContent=count+' '+(filter==='all'?'portfolio items':filter==='photo'?'photos':'videos');}
+document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(b=>{const active=b===button;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});updatePortfolio(button.dataset.filter);}));updatePortfolio('all');
+const photoDialog=document.getElementById('photo-dialog');
+document.querySelectorAll('[data-photo]').forEach(button=>button.addEventListener('click',()=>{document.getElementById('large-photo').src=button.dataset.photo;document.getElementById('large-photo').alt=button.querySelector('img').alt;document.getElementById('photo-caption').textContent=button.dataset.title;photoDialog.showModal();}));
+document.getElementById('close-photo').addEventListener('click',()=>photoDialog.close());
+photoDialog.addEventListener('click',e=>{if(e.target===photoDialog){const r=photoDialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)photoDialog.close();}});
+document.querySelectorAll('video').forEach(video=>video.addEventListener('play',()=>document.querySelectorAll('video').forEach(other=>{if(other!==video)other.pause();})));
+</script>
+</body></html>

@@ -1,0 +1,13 @@
+KANDY NAILS WEBSITE UPDATE
+
+1. Extract this ZIP on your phone or computer.
+2. Open https://github.com/kandynailsxoxo/kandynails-tinycreations
+3. Stay on the main repository page (where index.html is listed).
+4. Choose Add file > Upload files.
+5. Select index.html AND ALL files starting with portfolio- from the extracted folder. Do not upload the ZIP itself or this text file.
+6. Commit changes. Keep the existing assets folder.
+7. After GitHub finishes publishing, refresh your website.
+
+Your website address and QR code stay the same.
+
+Included: GoFundMe support, Instagram links, 17 nail photos, 11 nail videos, one pendant video, photo/video filters, enlarged photo viewer, removal of the draft note.

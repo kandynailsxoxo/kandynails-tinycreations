@@ -49,6 +49,11 @@ footer .social{margin-top:6px}
 @media(max-width:850px){.photo-open img,.video-frame video{height:390px}#navLinks{max-width:none;align-items:flex-start}}
 @media(max-width:420px){.photo-open img,.video-frame video{height:330px}}
 .music-card{width:min(420px,100%);margin:26px auto 38px;text-align:left;background:#15101a;border:1px solid #c746ff70;border-radius:18px;overflow:hidden}.music-card summary{padding:14px 18px;cursor:pointer;font-weight:700;font-size:.85rem;color:var(--green)}.music-card summary:focus-visible{outline:3px solid var(--green);outline-offset:-3px}.music-content{padding:0 16px 16px}.music-content p{font-size:.78rem;color:var(--muted);margin:0 0 12px}.music-content iframe{display:block;width:100%;aspect-ratio:16/9;min-height:200px;border:0;border-radius:12px}.music-content a{display:inline-block;margin-top:12px;color:var(--pink);font-size:.78rem;text-decoration:underline;text-underline-offset:3px}
+
+.availability-notice{width:min(920px,92%);margin:22px auto 0;padding:22px 26px;background:linear-gradient(120deg,#291338,#12301c);border:1px solid #a7f17588;border-radius:20px;position:relative;z-index:2;text-align:center}
+.availability-notice h2{font-family:Montserrat,sans-serif;font-size:clamp(1.15rem,3vw,1.55rem);line-height:1.35;margin:0 0 10px;color:var(--green)}
+.availability-notice p{margin:8px 0;color:var(--text);font-size:.92rem}.availability-notice .small-status{color:var(--muted);font-size:.83rem}
+.status-label{display:inline-block;padding:10px 16px;border:1px solid #74ff3970;border-radius:14px;color:var(--green);font-weight:700;background:#74ff390b}.hero-inner{margin-top:7vh}.paused-card{padding:26px;border-radius:22px;border:1px solid #c746ff70;background:#18121e}.paused-card p{color:var(--muted)}
 </style>
 </head>
 <body>
@@ -57,14 +62,20 @@ footer .social{margin-top:6px}
     <a class="logo" href="#home">Kandy Nails <span>♥</span></a>
     <button id="menuBtn" aria-label="Open menu">☰</button>
     <div id="navLinks">
-      <a href="#categories">Creations</a><a href="#support">Support 💜</a><a href="https://www.tiktok.com/@xxkissesxx23" target="_blank" rel="noopener">TikTok</a><a href="#nails">Nails</a><a href="portfolio.html">Portfolio</a><a href="services.html">Services &amp; Steps</a><a href="https://www.instagram.com/kandy_nails.katie.anderson/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="#pricing">Pricing</a><a href="#order">Custom Orders</a>
+      <a href="#categories">Creations</a><a href="#support">Support 💜</a><a href="https://www.tiktok.com/@xxkissesxx23" target="_blank" rel="noopener">TikTok</a><a href="#nails">Nails</a><a href="portfolio.html">Portfolio</a><a href="#availability">Service Updates</a><a href="https://www.instagram.com/kandy_nails.katie.anderson/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="#pricing">About the Art</a><a href="#order">Order Updates</a>
     </div>
   </nav>
+  <section class="availability-notice" id="availability" aria-labelledby="availability-title">
+    <h2 id="availability-title">💅 Nail Services Coming Soon</h2>
+    <p>I’m completing the licensing and location requirements needed to offer nail services. Appointments are currently paused.</p>
+    <p>Please enjoy my portfolio as I continue building Kandy Nails!</p>
+    <p class="small-status">Handmade creations are currently on display as a showcase. New custom orders are temporarily paused while I confirm the requirements for my home business.</p>
+  </section>
   <div class="hero-inner">
     <p class="kicker">KANDY NAILS & TINY CUSTOM CREATIONS</p>
     <h1>If You Can Imagine It,<br><em>I Can Create It.</em></h1>
     <p class="lead">Nails, handmade guitar picks, mini animals, names & initials, tiny custom creations and special-effect art — handmade with sparkle and personality.</p>
-    <div class="actions"><a class="btn" href="#categories">See the Creations</a><a class="btn ghost" href="#pricing">See Pricing</a><a class="btn ghost" href="#support">Support My Dream 💜</a></div>
+    <div class="actions"><a class="btn" href="#categories">See the Creations</a><a class="btn ghost" href="#pricing">About the Art</a><a class="btn ghost" href="#support">Support My Dream 💜</a></div>
     <details class="music-card">
       <summary>💅 🎶 Play some nail vibes</summary>
       <div class="music-content">
@@ -82,17 +93,17 @@ footer .social{margin-top:6px}
  <div class="wrap center">
   <div class="heading" style="margin:0 auto 24px"><span>HELP MY SMALL BUSINESS GROW</span><h2 id="support-title">Support My Business 💜</h2>
   <p>Hi, I’m Kaitlyn, the creator behind Kandy Nails &amp; Tiny Creations. I’m working to turn my passion for nail art and handmade miniatures into a stable source of income.</p>
-  <p>My GoFundMe helps fund the supplies, tools and equipment I need to keep creating and growing. Every donation or share helps me take another step toward this dream.</p></div>
+  <p>My GoFundMe helps fund supplies, tools and equipment while I build the business and work through licensing and location requirements. Nail appointments and new custom orders are currently paused. Donations support this business-building stage; they do not purchase or reserve a service or product. Every donation or share helps me take another step toward this dream.</p></div>
   <a class="btn" href="https://gofund.me/85987b3fd" target="_blank" rel="noopener noreferrer">Support on GoFundMe 💜</a>
   <p style="color:var(--muted);font-size:.9rem;margin-top:18px">Can’t donate? Sharing my fundraiser means so much, too. Thank you for supporting my art!</p>
  </div>
 </section>
 
 <section id="categories" class="wrap">
-  <div class="heading"><span>EXPLORE</span><h2>Pick your kind of Kandy ✨</h2><p>The collage is your visual menu. Tap a category below to see it larger.</p></div>
+  <div class="heading"><span>EXPLORE</span><h2>Pick your kind of Kandy ✨</h2><p>Explore my artwork, past creations and design concepts. Tap a category to learn more. This is a showcase; appointments and new orders are currently paused.</p></div>
   <img class="master-collage" src="assets/category-collage.png" alt="Kandy Nails and Tiny Custom Creations category collage">
   <div class="gallery">
-    <a class="tile" href="#nails"><img src="assets/nail-services.png" alt="Nail Services"><b>Nail Services</b></a>
+    <a class="tile" href="#nails"><img src="assets/nail-services.png" alt="Nail Services"><b>Nail Art Showcase</b></a>
     <a class="tile" href="#guitar"><img src="assets/guitar-picks.png" alt="Handmade Guitar Picks"><b>Handmade Guitar Picks</b></a>
     <a class="tile" href="#animals"><img src="assets/mini-animals.png" alt="Mini Animals"><b>Mini Animals</b></a>
     <a class="tile" href="#names"><img src="assets/names-initials.png" alt="Names and Initials"><b>Names & Initials</b></a>
@@ -106,15 +117,17 @@ footer .social{margin-top:6px}
 
 <section class="band" id="nails"><div class="split">
   <img src="assets/nail-services.png" alt="Kandy Nails services concept">
-  <div><span class="eyebrow">NAIL SERVICES</span><h2>Make your nails part of the art.</h2>
+  <div><span class="eyebrow">NAIL ART SHOWCASE • APPOINTMENTS PAUSED</span><h2>Make your nails part of the art.</h2>
   <p>Gel color, full-coverage tips, extensions, spa pedicures, chrome, jewels, 3D art and custom nail designs.</p>
-  <div class="mini-prices"><p><b>Manicure Without Polish</b><strong>$10</strong></p><p><b>Spa Manicure Without Polish</b><strong>$15</strong></p><p><b>Natural Nail Gel Overlay</b><strong>$25</strong></p><p><b>Gel Manicure</b><strong>$15</strong></p><p><b>Full-Coverage Tips + Gel</b><strong>$20</strong></p><p><b>Extensions</b><strong>$30</strong></p><p><b>Spa Pedicure Without Polish</b><strong>$25</strong></p><p><b>Spa Pedicure With Gel</b><strong>$35</strong></p></div><a class="btn" href="services.html">Explore Services &amp; Steps 💅</a>
+  <p class="status-label">Nail services coming soon</p>
+  <p>Licensing and location approval are pending. No nail appointments are being accepted at this time. Images show artwork and service concepts.</p>
+  <a class="btn" href="portfolio.html">Explore My Nail Portfolio 💅</a>
   </div>
 </div></section>
 
 <section id="nail-gallery" class="band"><div class="wrap center"><div class="heading" style="margin:0 auto 26px"><span>MY WORK</span><h2>Explore My Portfolio 💅</h2><p>Take a closer look at my nail sets, sparkling details, hand-painted designs and videos—all in one gallery.</p></div><a class="btn" href="portfolio.html">View My Portfolio 💜</a></div></section>
 
-<section class="wrap feature" id="guitar"><img src="assets/guitar-picks.png" alt="Handmade guitar picks"><div><span class="eyebrow">HANDMADE</span><h2>Guitar Picks</h2><p>Custom sculpted picks with your colors, theme and personality. No generic-looking menu required — each request can become its own tiny piece of art.</p></div></section>
+<section class="wrap feature" id="guitar"><img src="assets/guitar-picks.png" alt="Handmade guitar picks"><div><span class="eyebrow">HANDMADE</span><h2>Guitar Picks</h2><p>Custom sculpted picks exploring different colors, themes and personalities. Each piece is its own tiny work of art. New orders are currently paused.</p></div></section>
 <section class="wrap feature reverse" id="animals"><img src="assets/mini-animals.png" alt="Mini animals"><div><span class="eyebrow">TINY & CUSTOM</span><h2>Mini Animals</h2><p>Little creatures, pets, fantasy animals and whatever adorable idea you have in mind.</p></div></section>
 <section class="wrap feature" id="names"><img src="assets/names-initials.png" alt="Names and initials"><div><span class="eyebrow">PERSONALIZED</span><h2>Names & Initials</h2><p>Letters, initials and names can become standalone creations, charms, keepsakes or small wearable pieces.</p></div></section>
 <section class="wrap feature reverse" id="minis"><img src="assets/custom-mini-creations.png" alt="Custom mini creations"><div><span class="eyebrow">IMAGINE IT</span><h2>Custom Mini Creations</h2><p>Mushrooms, characters, tiny objects, fantasy pieces, miniature scenes and unusual ideas all belong here.</p></div></section>
@@ -130,41 +143,8 @@ footer .social{margin-top:6px}
 <section class="wrap feature reverse" id="encapsulated"><img src="assets/encapsulated-creations.png" alt="Encapsulated Creations"><div><span class="eyebrow">PRESERVED IN ART</span><h2>Encapsulated Creations</h2><p>Tiny flowers, butterflies, glitter and details can be preserved inside clear acrylic or hard gel for a glass-like layered finish.</p></div></section>
 
 <section id="pricing" class="wrap">
- <div class="heading"><span>PRICING</span><h2>Handmade, personalized & priced for the work involved.</h2><p>Every custom piece is different. Final pricing depends on size, detail, materials, design complexity, special effects, and hands-on creation time.</p></div>
- <div class="price-cards">
-   <article>
-     <h3>💅 Nail Services</h3>
-     <p>Manicure Without Polish <b>$10</b></p>
-     <p>Spa Manicure Without Polish <b>$15</b></p>
-     <p>Natural Nail Gel Overlay <b>$25</b></p>
-     <p>Gel Polish Manicure <b>$15</b></p>
-     <p>Full-Coverage Tips + Gel <b>$20</b></p>
-     <p>Extra-Length Extensions <b>$30</b></p>
-     <p>Spa Pedicure Without Polish <b>$25</b></p>
-     <p>Spa Pedicure With Gel <b>$35</b></p>
-     <p>Pedicure Gel Polish <b>+$10</b></p>
-     <p>Regular Toe Polish <b>$15</b></p>
-     <p>Basic Art / Chrome / Jewels <b>+$5</b></p>
-     <p>Polish Removal <b>+$5</b></p>
-     <p>Gel / Enhancement Removal <b>from +$10</b></p>
-     <p class="muted">Complex 3D or especially detailed custom nail art is quoted separately.</p><a class="btn ghost" href="services.html">See Steps &amp; Picture Guides</a>
-   </article>
-   <article class="featured">
-     <h3>💜 Custom Creations</h3>
-     <div class="big">$30<span>+</span></div>
-     <p><b>Simple Custom Creations — $30+</b><br>Simple shapes, colors, initials and small designs.</p>
-     <p><b>Detailed Custom Creations — $45+</b><br>Mini animals, characters, detailed objects and layered designs.</p>
-     <p><b>Highly Detailed / 3D — Custom Quote</b><br>Complex miniatures, multiple components, intricate 3D work or especially time-intensive designs.</p>
-   </article>
-   <article>
-     <h3>✨ Extras & Timing</h3>
-     <p><b>Special Effects</b><br>Glow-in-the-dark, thermochromatic, magnetic and encapsulated effects may increase the price.</p>
-     <p><b>Wearable Option</b><br>Many creations can be made small enough to drill for a necklace. Chain/hardware is priced separately depending on material.</p>
-     <p><b>1–3 days</b><br>Simple requests</p>
-     <p><b>5–14 days</b><br>More complex requests</p>
-     <p class="muted">Timing may vary depending on materials and design complexity.</p>
-   </article>
- </div>
+ <div class="heading"><span>ABOUT THE ART</span><h2>Handmade, personalized &amp; full of imagination.</h2><p>My work includes nail art, miniature sculptures, handmade guitar picks, personalized initials and special-effect creations.</p></div>
+ <div class="paused-card"><h3>✨ Handmade Creations Showcase</h3><p>Browse my custom miniature artwork and past creations. New orders are temporarily paused while I confirm the requirements for my home business.</p><p>Pricing, turnaround and fulfillment options will be confirmed when orders reopen.</p><a class="btn ghost" href="#categories">Browse the Creations</a></div>
 </section>
 
 <section class="wearable"><div class="wrap center">
@@ -175,41 +155,9 @@ footer .social{margin-top:6px}
 <section class="brand-finale"><div class="wrap">
 <img src="assets/imagine-create.png" alt="If You Can Imagine It, I Can Create It">
 </div></section>
-<section class="shipping"><div class="wrap">
-<div class="heading"><span>SHIPPING • PICKUP • DELIVERY</span><h2>How you'll receive your creation 📦</h2></div>
-<div class="shipping-grid">
-<article><h3>📦 Shipping</h3><p>Shipping is available for Tiny Custom Creations. Cost is calculated separately based on order size/weight, packaging, destination and shipping method. Your shipping cost will be confirmed before payment.</p></article>
-<article><h3>📍 Local Pickup</h3><p>Local pickup can be arranged after your order is finished. Exact pickup details are provided privately after the order is confirmed.</p></article>
-<article><h3>🚗 Local Delivery</h3><p>Local delivery may be available depending on distance and availability. A delivery fee may apply and will be discussed before the order is finalized.</p></article>
-<article><h3>💜 Tracking & Care</h3><p>When tracking is available, it will be sent once your order ships. Each handmade creation is packaged carefully. If an item arrives damaged, contact me as soon as possible with photos of the item and packaging.</p></article>
-</div>
-<div class="shipping-note"><b>Creation time and shipping time are separate.</b> Creation is generally 1–3 days for simple requests and 5–14 days for complex requests. Shipping begins after your creation is completed. Customers are responsible for providing a complete and accurate shipping address.</div>
-</div></section>
-<section class="policies">
-<div class="wrap">
- <div class="heading"><span>CUSTOM ORDER POLICY</span><h2>Before I create your order 🖤</h2></div>
- <div class="policy-box">
-  <p>Custom pieces are handmade and may have slight variations — that is part of what makes each piece one of a kind.</p>
-  <p><b>Pricing is confirmed before work begins.</b> Major changes requested after creation has started may result in an additional charge.</p>
-  <p>Turnaround is generally <b>1–3 days for simple creations</b> and <b>5–14 days for more complex designs</b>, but timing can vary depending on the design and materials needed.</p>
-  <p>Materials or specialty items may need to be purchased specifically for your request.</p>
-  <p>Because personalized and custom pieces are made specifically for you, completed custom work is generally not refundable simply because you changed your mind. If there is a problem with your order, please contact me so we can work out an appropriate solution.</p>
-  <p class="policy-highlight">💜 Submitting a custom request does not commit you to purchasing anything. We will discuss the design and price first.</p>
- </div>
-</div>
-</section>
-
-<section id="order" class="wrap order">
- <div class="heading"><span>YOUR IDEA → YOUR CREATION</span><h2>Request your custom quote. 💜</h2><p>Tell me what you are imagining. Your request will open as an email so we can talk through the design and price before I begin.</p><p><a class="tiktok-link" href="https://www.tiktok.com/@xxkissesxx23" target="_blank" rel="noopener">♡ Follow @xxkissesxx23 on TikTok ♡</a></p></div>
- <form id="orderForm">
-  <label>Your name<input id="customerName" required placeholder="Name"></label>
-  <label>What do you want created?<textarea id="customerIdea" required placeholder="Tell me your idea..."></textarea></label>
-  <label>Colors / theme<input id="customerColors" placeholder="Purple, green, spooky, cute..."></label>
-  <label>Special effect<select id="customerEffect"><option>None / not sure</option><option>Glow-in-the-dark</option><option>Magnetic</option><option>Thermochromatic</option><option>Encapsulated</option></select></label><label>How would you like to receive it?<select id="customerFulfillment"><option>Shipping</option><option>Local Pickup</option><option>Local Delivery</option><option>Not sure yet</option></select></label>
-<label>ZIP code<input id="customerZip" inputmode="numeric" placeholder="ZIP code"></label>
-  <button class="btn" type="submit">Request My Custom Quote ♡</button>
-  <p class="demo">This opens your email app with the custom-request details filled in.</p>
- </form>
+<section id="order" class="wrap order" aria-labelledby="order-status-title">
+ <div class="heading"><span>CREATING WHAT COMES NEXT</span><h2 id="order-status-title">New orders are temporarily paused. 💜</h2><p>I’m confirming the requirements for my home business before accepting new custom orders. There is no active order or quote-request form at this time.</p><p>Shipping, pickup and delivery arrangements will be confirmed when orders reopen. No pickups or nail appointments are currently being scheduled at my apartment.</p></div>
+ <div class="paused-card"><p class="status-label">Portfolio &amp; progress updates</p><p>You can still explore my art and follow along as I keep creating.</p><a class="btn" href="portfolio.html">View My Portfolio 💜</a> <a class="btn ghost" href="https://www.tiktok.com/@xxkissesxx23" target="_blank" rel="noopener noreferrer">Follow on TikTok</a></div>
 </section>
 </main>
 
@@ -222,25 +170,6 @@ const b=document.getElementById('menuBtn'), n=document.getElementById('navLinks'
 b.onclick=()=>n.classList.toggle('show');
 document.querySelectorAll('#navLinks a').forEach(a=>a.onclick=()=>n.classList.remove('show'));
 
-document.getElementById('orderForm').addEventListener('submit', function(e){
-  e.preventDefault();
-  const name=document.getElementById('customerName').value;
-  const idea=document.getElementById('customerIdea').value;
-  const colors=document.getElementById('customerColors').value || 'Not specified';
-  const effect=document.getElementById('customerEffect').value;
-  const subject=encodeURIComponent('Kandy Nails Custom Quote Request - ' + name);
-  const body=encodeURIComponent(
-    'Hi Kandy Nails!\n\nI would like to request a custom quote.\n\n' +
-    'Name: ' + name + '\n\n' +
-    'My idea:\n' + idea + '\n\n' +
-    'Colors / theme: ' + colors + '\n' +
-    'Special effect: ' + effect + '\n' +
-    'Receive order by: ' + document.getElementById('customerFulfillment').value + '\n' +
-    'ZIP code: ' + (document.getElementById('customerZip').value || 'Not provided') + '\n\n' +
-    'Please let me know what you think and what the quote would be. 💜'
-  );
-  window.location.href='mailto:Kandy.nails.xoxo@gmail.com?subject='+subject+'&body='+body;
-});
 
 </script>
 </body></html>
